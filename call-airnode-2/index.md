@@ -7,7 +7,7 @@ category: Technology
 image: "https://miro.medium.com/v2/resize:fit:4800/0*crNHRAgjWh9LoIFX"
 ---
 
-Photo by [GuerrillaBuzz Crypto PR](https://unsplash.com/@theshubhamdhage?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
+_Photo by [GuerrillaBuzz Crypto PR](https://unsplash.com/@theshubhamdhage?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 This is the second part of the tutorial where we deploy the Requester Contract and request data from the [Airnode](https://docs.api3.org/explore/airnode/what-is-airnode.html). Check out the first part [here](https://betterprogramming.pub/how-to-call-any-api-from-a-solidity-smart-contract-part-i-d1d2f34461b6).
 
@@ -145,7 +145,7 @@ $ node .\src\encodeParams.js
 ```
 Now you have all the parameters that you require to run the `makeRequest` function. Populate all the fields and click on Transact.
 
-_Note: The_ `_sponsor_` _here will be the address of the Requester Contract that you just deployed._
+_Note: The `sponsor` here will be the address of the Requester Contract that you just deployed._
 
 ![](https://miro.medium.com/v2/resize:fit:459/1*buQhbSCE-pq9hAibHbIOmA.png)
 
@@ -153,7 +153,7 @@ Click on transact, confirm the transaction on MetaMask and wait for the transact
 
 Now you can head over to [https://mumbai.polygonscan.com](https://mumbai.polygonscan.com) and check your `sponsorWallet` for any new transactions.
 
-_You might need to wait for a while as the Airnode calls the_ `_fulfill()_` _function in AirnodeRrpV0.sol that will in turn call back the requester contract at_ `_fulfillAddress_` _using function_ `_fulfillFunctionId_` _to deliver_ `_data_`_._
+_You might need to wait for a while as the Airnode calls the `fulfill()` function in AirnodeRrpV0.sol that will in turn call back the requester contract at `fulfillAddress` using function `fulfillFunctionId` to deliver `data`._
 
 ![](https://miro.medium.com/v2/resize:fit:700/1*NnNht40SsIYsKEkNW45DvA.png)
 

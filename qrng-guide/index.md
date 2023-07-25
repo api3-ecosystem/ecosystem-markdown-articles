@@ -7,7 +7,7 @@ category: Technology
 image: "https://miro.medium.com/v2/resize:fit:700/0*rjYmsGDM5hrddc2f"
 ---
 
-Photo by [FLY:D](https://unsplash.com/@flyd2069?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
+_Photo by [FLY:D](https://unsplash.com/@flyd2069?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 Random number generation (RNG) has always been one of the biggest problems when working with smart contracts. A deterministic virtual machine is incapable of generating ‘true’ randomness. Due to this, RNG needs to be provided as an oracle service.
 
@@ -25,7 +25,7 @@ There are different methods of implementing QRNG with varying levels of practica
 
 ![](https://miro.medium.com/v2/resize:fit:700/0*sm4Eo5c6GcDTwkIU)
 
-Dr Aaron Tranter of [ANU](https://quantumnumbers.anu.edu.au/)
+_Dr Aaron Tranter of [ANU](https://quantumnumbers.anu.edu.au/)_
 
 As we already discussed, providing RNG through a third-party oracle network opens space for attack vectors. But first-party oracles ([Airnodes](https://docs.api3.org/airnode/v0.8/)) that are directly operated by the [QRNG API](https://docs.api3.org/reference/qrng/providers.html) Providers optimally counter the Sybil attack risk.
 

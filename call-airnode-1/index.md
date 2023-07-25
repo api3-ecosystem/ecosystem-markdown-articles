@@ -7,14 +7,13 @@ category: Technology
 image: "https://images.unsplash.com/photo-1655635643532-fa9ba2648cbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80"
 ---
 ​
-_Photo by [DeepMind](https://unsplash.com/@deepmind?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
-_
+_Photo by [DeepMind](https://unsplash.com/@deepmind?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 As we all know that it is not possible by a Smart Contract to directly access external APIs outside of a blockchain. Interacting with off-chain data while working with Smart Contracts is a real problem for a lot of dApps.
 
 > The Ethereum blockchain was designed to be entirely deterministic while the Internet was not. Calling an API directly sounds easy but on a blockchain, it would require all the nodes to call the same endpoint at the same time and expect to get the same data in order to come to a consensus. Plus, the core concept of a blockchain is its security, that is derived from a decentralized network of independent validators that purposefully limit their connection to the outside world.
 
-However, with [API3](https://api3.org/), you can have first-party oracles that are directly operated by the API Providers, called [Airnodes](https://docs.api3.org/explore/airnode/what-is-airnode.html) that provides data to any on-chain dApp_._ As a result, you can easily make any REST API accessible to a Smart Contract.
+However, with [API3](https://api3.org/), you can have first-party oracles that are directly operated by the API Providers, called [Airnodes](https://docs.api3.org/explore/airnode/what-is-airnode.html) that provides data to any on-chain dApp. As a result, you can easily make any REST API accessible to a Smart Contract.
 
 ## Say Hello to ChainAPI
 

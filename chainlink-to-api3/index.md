@@ -7,7 +7,7 @@ category: Technology
 image: "https://miro.medium.com/v2/resize:fit:700/0*R8WocxYVyHB7TGe0"
 ---
 
-Photo by [Yassine Khalfalli](https://unsplash.com/@yassine_khalfalli?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
+_Photo by [Yassine Khalfalli](https://unsplash.com/@yassine_khalfalli?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 > I’ve already discussed the problem of generating true randomness in a smart contract in my previous article. This is going to be a more advanced version of that. You can read it [here](https://vanshwassan.medium.com/a-guide-to-using-anus-quantum-random-number-generator-in-your-smart-contracts-21be5bed5aba).
 
@@ -69,7 +69,7 @@ We can now move forward and deploy and compile the Smart Contract.
 
 ## Compiling and Deploying the NFT Contract
 
-Head to [Remix IDE](https://remix.ethereum.org), make a contract and paste in the [_API3_QRNG](https://gist.github.com/vanshwassan/48baa25995ef3c556ebf208c725f7a86) code. Now hit compile on the right side of the dashboard and compile the Smart Contract.
+Head to [Remix IDE](https://remix.ethereum.org), make a contract and paste in the [API3QRNG](https://gist.github.com/vanshwassan/48baa25995ef3c556ebf208c725f7a86) code. Now hit compile on the right side of the dashboard and compile the Smart Contract.
 
 ![](https://miro.medium.com/v2/resize:fit:379/1*yvwsN04zZT8IplHVdcKYAg.png)
 
@@ -91,9 +91,9 @@ Now select the _setRequestParameters_ dropdown to set all the parameters.
 
 ![](https://miro.medium.com/v2/resize:fit:335/1*i-8w300dh7xw0n7TFJCWEw.png)
 
-You can find __airnode_ (QRNG Provider Airnode Address) and __endpointIdUint256_ [here](https://docs.api3.org/reference/qrng/providers.html).
+You can find airnode (QRNG Provider Airnode Address) and endpointIdUint256 [here](https://docs.api3.org/reference/qrng/providers.html).
 
-__sponsortWallet_ is your wallet that is derived from the requester contract address, the Airnode address and the Airnode xpub. The wallet is used to pay gas costs to acquire a random number. A sponsor wallet must be derived using the command [derive-sponsor-wallet-address](https://docs.api3.org/reference/airnode/latest/packages/admin-cli.html#derive-sponsor-wallet-address) from the Admin CLI. Use the value of the _sponsor wallet address_ that the command outputs. Make sure you fund this wallet with enough test ETH as it’s gonna make the actual request.
+`sponsortWallet` is your wallet that is derived from the requester contract address, the Airnode address and the Airnode xpub. The wallet is used to pay gas costs to acquire a random number. A sponsor wallet must be derived using the command [derive-sponsor-wallet-address](https://docs.api3.org/reference/airnode/latest/packages/admin-cli.html#derive-sponsor-wallet-address) from the Admin CLI. Use the value of the _sponsor wallet address_ that the command outputs. Make sure you fund this wallet with enough test ETH as it’s gonna make the actual request.
 
 Click on transact button and confirm the transaction to set the parameters.
 
