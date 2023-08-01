@@ -55,8 +55,8 @@ The `makeRequest()` function expects the following parameters to make a valid re
 
 The callback to the _Requester_ contains two parameters:
 
--   `**requestId**`: First acquired when making the request and passed here as a reference to identify the request for which the response is intended.
--   `**data**`: In case of a successful response, this is the requested data which has been encoded and contains a timestamp in addition to other response data. Decode it using the function `decode()` from the `abi` object.
+-   `requestId`: First acquired when making the request and passed here as a reference to identify the request for which the response is intended.
+-   `data`: In case of a successful response, this is the requested data which has been encoded and contains a timestamp in addition to other response data. Decode it using the function `decode()` from the `abi` object.
 
 ## Compiling the Contract
 
