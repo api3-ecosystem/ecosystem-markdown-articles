@@ -59,7 +59,7 @@ Make sure you have the following installed:
 Also, make sure you’ve already cloned and installed the [Airnode Monorepo](https://github.com/api3dao/airnode). If you haven’t, clone the Airnode Monorepo with this command:
 
 ```shell
-$ git clone [https://github.com/api3dao/airnode.git](https://github.com/api3dao/airnode.git) .
+$ git clone https://github.com/api3dao/airnode.git .
 ```
 To install the dependencies, do the following:
 ```shell
@@ -71,14 +71,14 @@ $ yarn run build
 ```
 ## Compiling the Contract
 
-To compile the QrngRequester contract, we are going to use [Remix IDE](https://remix.ethereum.org/). It’s an online IDE that allows the developing, deploying, and administering of smart contracts for EVM-compatible blockchains.
+To compile the QrngRequester contract, we are going to use [Remix IDE](https://remix.ethereum.org/). It’s an online IDE that allows the development, deploying, and administering of smart contracts for EVM-compatible blockchains.
 
 https://gist.github.com/vanshwassan/0b50c7b36b1e7ebed85549754578ed79#file-qrngrequester-sol
 
 The `QrngRequester` will have three main functions: `setRequestParameters()`, `makeRequestUint256()`, and `fulfillUint256()`.
 
 1.  The `setRequestParameters()` takes in `airnode`, `endpointIdUint256`, `sponsorWallet` and sets these parameters.
-2.  The `makeRequestUint256()` function calls the `airnodeRrp.makeFullRequest()` function of the `[AirnodeRrpV0.sol](https://docs.api3.org/reference/airnode/latest/concepts/#airnoderrpv0-sol)` protocol contract which adds the request to its storage and returns a `requestId`.
+2.  The `makeRequestUint256()` function calls the `airnodeRrp.makeFullRequest()` function of the [`AirnodeRrpV0.sol`](https://docs.api3.org/reference/airnode/latest/concepts/#airnoderrpv0-sol) protocol contract which adds the request to its storage and returns a `requestId`.
 3.  The targeted off-chain ANU Airnode gathers the request and performs a callback to the requester with the random number.
 
 ## Request Parameters
@@ -86,7 +86,7 @@ The `QrngRequester` will have three main functions: `setRequestParameters()`, `m
 The `makeRequestUint256()` function expects the following parameters to make a valid request.
 
 -   `airnode` (address) and `endpointIdUint256`specify the endpoint. Get these from [here](https://docs.api3.org/reference/qrng/providers.html).
--   `[sponsorWallet](https://docs.api3.org/reference/airnode/latest/concepts/sponsor.html#sponsorwallet)` specifies which wallet will be used to fulfill the request.
+-   [`sponsorWallet`](https://docs.api3.org/reference/airnode/latest/concepts/sponsor.html#sponsorwallet) specifies which wallet will be used to fulfill the request.
 
 ## Response Parameters
 
@@ -164,7 +164,7 @@ To make the request, click on the `makeRequestUint256` button to call the functi
 
 ![](https://miro.medium.com/v2/resize:fit:379/1*G6p3_QX0wYCvjRAMO_5G2Q.png)
 
-Now you can head over to [](https://rinkeby.etherscan.io/) `[https://goerli.etherscan.io/](https://goerli.etherscan.io/)` and check your `sponsorWallet` for any new transactions.
+Now you can head over to [](https://rinkeby.etherscan.io/) [https://goerli.etherscan.io/](https://goerli.etherscan.io/) and check your `sponsorWallet` for any new transactions.
 
 You might need to wait for a while as the Airnode calls the `fulfill()` function in `AirnodeRrpV0.sol` that will in turn call back the requester contract at `fulfillAddress` using function `fulfillFunctionId` to deliver `data`(the random number).
 
