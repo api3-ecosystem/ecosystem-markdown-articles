@@ -205,4 +205,4 @@ Check out the GitHub Repo for this guide [here](https://github.com/vanshwassan/A
 
 ![](https://miro.medium.com/v2/resize:fit:700/0*KtPyklodLfrFv-IW)
 
-In the [part 2](https://betterprogramming.pub/how-to-call-any-api-from-a-solidity-smart-contract-part-2-6552b6e2e174), we will show you how to code a Requester contract to call and read the data from the Airnode.
+In the [part 2](/articles/call-airnode-2), we will show you how to code a Requester contract to call and read the data from the Airnode.
