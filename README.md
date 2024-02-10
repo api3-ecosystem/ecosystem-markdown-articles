@@ -6,7 +6,7 @@ Welcome to our repository! This guide is designed to help contributors add artic
 
 1. [Creating an Article](#creating-an-article)
    - [Prepare the Article Workspace](#prepare-the-article-workspace)
-   - [Formatting Your Article](#formatting-your-article)
+   - [Formatting Your Article](#adding-metadata-to-your-article)
 3. [Using Components](#using-components)
    - [GitHub Gist](#github-gist)
 
