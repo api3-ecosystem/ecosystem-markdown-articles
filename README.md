@@ -14,7 +14,7 @@ Welcome to our repository! This guide is designed to help contributors add artic
 ## Creating an Article
 
 1. **Prepare the Article Workspace:**
-   - **Create a Folder:** Start by creating a new folder within the repository. This folder will house all the content related to your article.
+   - **Create a Folder:** Start by creating a new folder within the repository. This folder will house all the content related to your article. Its name will become the article's url slug. # /articles/folder-name
    - **Create the Markdown File:** Inside this folder, create a Markdown file named `index.md`. This file will serve as the main document for your article.
 
 2. **Write Your Article:**
