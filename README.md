@@ -13,16 +13,22 @@ Welcome to our repository! This guide is designed to help contributors add artic
 
 ## Creating an Article
 
-1. **Prepare the Article Workspace:**
-   - **Create a Folder:** Start by creating a new folder within the repository. This folder will house all the content related to your article. Its name will become the article's url slug. # /articles/folder-name
-   - **Create the Markdown File:** Inside this folder, create a Markdown file named `index.md`. This file will serve as the main document for your article.
+To start crafting your article, follow these two straightforward steps:
+
+1. **Create a Folder:**
+   - Create a new folder within the repository to store your article's content.
+   - The name of this folder will also serve as the URL slug for your article (e.g., `/articles/your-folder-name`).
+
+2. **Create the Markdown File:**
+   - Within this new folder, establish a file named `index.md`. This Markdown file will contain the entirety of your article's content, acting as the primary document.
 
 2. **Write Your Article:**
    - **Content:** Draft your article directly in the `index.md` file, utilizing standard Markdown syntax for all formatting needs.
 
-## Formatting Your Article
+## Adding Metadata to Your Article
 
-To ensure uniformity across the repository, begin your `index.md` file with the following YAML front matter:
+Begin your `index.md` file with the following YAML front matter to provide essential metadata for your article:
+
 
 ```yaml
 ---
