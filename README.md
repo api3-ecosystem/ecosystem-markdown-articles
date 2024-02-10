@@ -31,7 +31,7 @@ subtitle: Article Subtitle
 author: Author Name
 date_published: YYYY-MM-DD # Format should be Year-Month-Day
 category: Category         # For example, Technology, Health, etc.
-image: Path/To/CoverImage.jpg  # Include a relative path to your cover image
+image: Path/To/CoverImage.jpg  # Include a link to your cover image
 hidden: true                  # Set to true to prevent automatic listing
 ---
 ```
