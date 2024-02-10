@@ -6,12 +6,14 @@ Welcome to our repository! This guide is designed to help contributors add artic
 
 1. [Creating an Article](#creating-an-article)
    - [Prepare the Article Workspace](#prepare-the-article-workspace)
-   - [Write Your Article](#write-your-article)
-2. [Formatting Your Article](#formatting-your-article)
+   - [Formatting Your Article](#formatting-your-article)
 3. [Using Components](#using-components)
    - [GitHub Gist](#github-gist)
 
 ## Creating an Article
+
+### Prepare the Article Workspace
+
 
 To start crafting your article, follow these two straightforward steps:
 
@@ -22,10 +24,7 @@ To start crafting your article, follow these two straightforward steps:
 2. **Create the Markdown File:**
    - Within this new folder, establish a file named `index.md`. This Markdown file will contain the entirety of your article's content, acting as the primary document.
 
-2. **Write Your Article:**
-   - **Content:** Draft your article directly in the `index.md` file, utilizing standard Markdown syntax for all formatting needs.
-
-## Adding Metadata to Your Article
+### Adding Metadata to Your Article
 
 Begin your `index.md` file with the following YAML front matter to provide essential metadata for your article:
 
