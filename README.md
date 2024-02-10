@@ -1,6 +1,6 @@
 # Adding Articles to the Repository
 
-Welcome to our repository! This guide is designed to help contributors add articles with ease while ensuring consistency and quality. It covers everything from creating a new article to formatting it with custom Markdown components.
+Welcome to our repository! This guide is designed to help contributors add articles to [ecosystem.api3.org](https://ecosystem.api3.org/) with ease while ensuring consistency and quality. It covers everything from creating a new article to formatting it with custom Markdown components.
 
 ## Table of Contents
 
