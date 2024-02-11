@@ -7,8 +7,11 @@ Welcome to our repository! This guide is designed to help contributors add artic
 1. [Creating an Article](#creating-an-article)
    - [Prepare the Article Workspace](#prepare-the-article-workspace)
    - [Adding Metadata to Your Article](#adding-metadata-to-your-article)
-3. [Using Components](#using-components)
+2. [Using Components](#using-components)
    - [GitHub Gist](#github-gist)
+   - [Figure Block](#figure-block)
+3. [Tips and Best Practices for Writing Your Article](#tips-and-best-practices-for-writing-your-article)
+   - [Specify Language in Code Blocks](#specify-language-in-code-blocks)
 
 ## Creating an Article
 
@@ -74,4 +77,20 @@ alt: "Alternative Text"     # Descriptive text for accessibility and SEO
 caption: "Image Caption"    # A caption describing the image
 ---
 ::
+```
 
+
+## Tips and Best Practices for Writing Your Article
+
+When writing your article, keep the following tips in mind to ensure your content is rendered better:
+
+### Specify Language in Code Blocks
+
+When including code snippets in your article, always specify the programming language immediately after the opening three backticks. 
+
+This enables syntax highlighting, making your code blocks easier to read and understand. For example:
+
+```javascript
+const greeting = 'Hello, world!';
+console.log(greeting);
+```
