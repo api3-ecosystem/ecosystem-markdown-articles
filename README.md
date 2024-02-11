@@ -69,7 +69,7 @@ Here's how you can use it in your Markdown file:
 ```md
 ::figure-block
 ---
-image: "Path/To/Image.jpg"  # The path to the image file
+image: "Image.jpg"  # The link to the image file
 alt: "Alternative Text"     # Descriptive text for accessibility and SEO
 caption: "Image Caption"    # A caption describing the image
 ---
