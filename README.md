@@ -87,10 +87,25 @@ When writing your article, keep the following tips in mind to ensure your conten
 ### Specify Language in Code Blocks
 
 When including code snippets in your article, always specify the programming language immediately after the opening three backticks. 
+```
+```javascript
+```
 
-This enables syntax highlighting, making your code blocks easier to read and understand. For example:
+This enables syntax highlighting, making your code blocks easier to read and understand.
+
+
+With:
+
 
 ```javascript
 const greeting = 'Hello, world!';
 console.log(greeting);
 ```
+
+
+Without:
+```
+const greeting = 'Hello, world!';
+console.log(greeting);
+```
+
