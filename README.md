@@ -56,3 +56,22 @@ gistId: "GistID"
 ---
 ::
 ```
+
+### Figure Block
+
+When you want to include images within your article with a descriptive caption, use the `figure-block` component. 
+
+
+This component allows you to insert an image, provide alternative text for accessibility, and add a caption to give context or additional information about the image.
+
+Here's how you can use it in your Markdown file:
+
+```md
+::figure-block
+---
+image: "Path/To/Image.jpg"  # The path to the image file
+alt: "Alternative Text"     # Descriptive text for accessibility and SEO
+caption: "Image Caption"    # A caption describing the image
+---
+::
+
